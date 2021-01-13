@@ -1,0 +1,205 @@
+
+<div class="container card pt-3 mt-3">
+ <%#= image_tag "annie.jpg", alt: "alttext", class:"img"%>
+  <h1> Marine Payet</h1>
+  <p>
+    32 ans
+    93220 - Gagny - Véhiculé
+    Tél : 06 08 54 12 46
+    E-mail : marine.payet3@gmail.com
+  </p>
+</div>
+
+
+<div class="container d-flex mt-3">
+  <div class="row">
+    <div class="container col-4 card pt-3" id="col-left">
+      <h3> COMPETENCES </h3>
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter"> Événementiel </button>
+      <!-- Modal -->
+      <div class="modal fade" tabindex="-1" role="dialog" id="exampleModalCenter" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Événementiel :</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <ul>
+                <li> Conception et organisation d'événements. </li>
+                <li> Gestion du budget, des plannings et de la partie administrative.</li>
+                <li> Gestion de la logistique.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <br>
+
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenterCommu"> Communication </button>
+      <!-- Modal -->
+      <div class="modal fade" tabindex="-1" role="dialog" id="exampleModalCenterCommu" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" >Communication :</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <ul>
+                <li> Créations de supports adéquats pour la promotion.</li>
+                <li> Elaboration de campagne de mailings et emailings.</li>
+                <li> Suivi, analyse et reporting.</li>
+                <li> Diffusion des événements et contenu sur les réseaux sociaux.</li>
+                <li> Relations Presse.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+<br>
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenterCommer"> Commercial </button>
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModalCenterCommer" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" >Commercial :</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <ul>
+                <li> Coordination des clients internes et externes.</li>
+                <li> Gestion des réservations/ développement des partenariats.</li>
+                <li> Fidélisation et satisfaction.</li>
+                <li> Suivi des invités (envoi des invitations, relances).</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h3>Software Skills</h3>
+      <div class="d-flex">
+      <%= image_tag "bootstrap.png", :size => "50x50", alt: "alttext" %>
+      <%= image_tag "git_et_github.png", :size => "90x50", alt: "alttext" %>
+      <%= image_tag "heroku.png", :size => "50x50", alt: "alttext" %>
+      <%= image_tag "html_css_js.png", :size => "90x50", alt: "alttext" %>
+      <%= image_tag "postgresql2.png", :size => "50x50", alt: "alttext" %>
+      <%= image_tag "ror2.jpg", :size => "50x50", alt: "alttext" %>
+      </div>
+      <p>
+      Anglais : Courant
+      Espagnol : Bonnes notions
+
+      - Logiciels maîtrisés: Pack Office, Siebel, SharePoint
+      </p>
+
+    </div>
+
+    <div class="container col-7 card pt-3" id="col-right">
+      <h3 > REALISATIONS </h3>
+      <%= link_to "Rent My bag" , "https://rent-my-bag.herokuapp.com/", target: :_blank  %>
+      <%= link_to "Mister Cocktail" , "https://paillette-garden2.herokuapp.com/", target: :_blank  %>
+      <br>
+
+      <h3 > EXPERIENCES </h3>
+      <br>
+
+
+      <button type="button" id="cpm">2016     Assistante Chef de projet - <em>Cliquer</em></button>
+
+      <span id="assChef"  class="hidden">
+        <p >Agence Marketing opérationnel - CPM France / Issy-les-Moulineaux (92)</p>
+        <br >
+        <ul >
+          <li >Planification des animations commerciales</li>
+          <li >Gestion de la logistique matérielle et humaine</li>
+          <li >Formation des animateurs</li>
+          <li >Analyse des reporting des animateurs</li>
+          <li >Aide à la préparation des bilans des campagnes</li>
+          <li >Devis & Facturation</li>
+        </ul>
+      </span>
+
+      <br>
+
+      <button type="button" id="toronto">2014-2015   Missions linguistiques à Toronto au Canada - <em>Cliquer</em></button>
+
+      <span id="torontoToDisplay"  class="hidden">
+        <ul>
+          <li>Mise en place d’une exposition d’artisans </li>
+        </ul>
+      </span>
+
+      <br>
+
+      <button type="button" id="meeschaert">2011-2014   Assistante Communication - <em>Cliquer</em></button>
+      <span id="meeschaertToDisplay" class="hidden">
+        <p>Société de gestion privée - MEESCHAERT / Paris (75)</p>
+        <ul>
+          <li>Organisation d’événements internes et externes</li>
+          <li>Créations des supports de communication et de présentation</li>
+          <li>Mise à la charte graphique de documents</li>
+          <li>Gestion de la logistique et des Œuvres d’art</li>
+          <li>Revue de Presse</li>
+          <li>Mise à jour du contenu du site internet</li>
+          <li>Envoi des e-mailing et newsletters</li>
+        </ul>
+      </span>
+      <br>
+
+      <button type="button" id="havas">2010-2011   Assistante Chargée d’études - <em>Cliquer</em></button>
+
+      <span id="havasToDisplay" class="hidden">
+        <p>Communication Financière - HAVAS / Suresnes (92)</p>
+        <ul>
+          <li>Analyse et reporting de l’actionnariat de sociétés cotées</li>
+          <li>Veille sur des thèmes économiques et financiers</li>
+          <li>Mise à jour de bases de données</li>
+          <li>Etudes d’opinion auprès d’institutionnels et de financiers </li>
+          <li>Réalisation de benchmarks</li>
+        </ul>
+      </span>
+
+      <br>
+
+      <button type="button" id="acep">2009-2010   Chargée de Relations Clients - <em>Cliquer</em></button>
+
+      <span id="acepToDisplay" class="hidden">
+          <p>Association de commerçants - ACEP Pontault-Combault (77)</p>
+          <ul>
+            <li>Prospection</li>
+            <li>Mise en place d’un argumentaire de ventes</li>
+            <li>Elaboration et envoi de newsletter</li>
+          </ul>
+      </span>
+
+    </div>
+  </div>
+</div>
+
+<div class="container card pt-3 mt-3">
+  <h3> FORMATIONS</h3>
+
+  <p>2013    Master en Communication- Ecole Supérieure de Management en Alternance (ESM-A) </p>
+
+  <p> 2008    BTS Ventes et productions touristiques - INFA</p>
+</div>
+<br>
+<br>
+
+<script src="https://forms.app/static/feedback.js" type="text/javascript">  FormsAppFeedbackButton({ formId: "5ffd6530c61eb24bc3910591", buttonText: "Contactez-moi", buttonTextColor: "#FFFFFF", buttonBackground: "#000000", verticalAlligment: "bottom", horizontalAlligment: "center", width: 400,height: 300}); </script>
+
+

@@ -1,0 +1,27 @@
+.card {
+
+  background-color: #ffe3d8;
+
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 22px;
+  box-shadow: 10px 10px white;
+}
+
+#col-left {
+  float: left;
+}
+
+h2 {
+  font-weight: bold;
+  color: #0a043c;
+}
+
+.hidden {
+   position: absolute !important;
+   clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+   clip: rect(1px, 1px, 1px, 1px);
+   height: 1px;
+   overflow: hidden;
+   width: 1px;
+}
+
