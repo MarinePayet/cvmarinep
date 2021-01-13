@@ -8,6 +8,13 @@
     Tél :
     E-mail : marine.payet.web@gmail.com
   </p>
+  <p> <em>
+  Forte de plusieurs années d'expérience en communication et marketing, J'ai décidé de donner un nouveau souffle à ma carrière en me formant au code. Je sors tout juste d'une formation intensive de 9 semaines pour être développeuse d'application web.
+
+Je suis prête à relever de nouveaux défis et désireuse d'apprendre encore et toujours.
+
+Mes points forts = Organisée, pro-active, curieuse </p>
+  </em>
 </div>
 
 
@@ -16,7 +23,7 @@
     <div class="container col-4 card pt-3" id="col-left">
       <h3> COMPETENCES </h3>
       <!-- Button trigger modal -->
-      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter"> Événementiel </button>
+      <button type="button" class="btn-comp" data-toggle="modal" data-target="#exampleModalCenter"> Événementiel </button>
       <!-- Modal -->
       <div class="modal fade" tabindex="-1" role="dialog" id="exampleModalCenter" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
@@ -41,7 +48,7 @@
       <br>
 
       <!-- Button trigger modal -->
-      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenterCommu"> Communication </button>
+      <button type="button" class="btn-comp" data-toggle="modal" data-target="#exampleModalCenterCommu"> Communication </button>
       <!-- Modal -->
       <div class="modal fade" tabindex="-1" role="dialog" id="exampleModalCenterCommu" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
@@ -67,7 +74,7 @@
 
 <br>
       <!-- Button trigger modal -->
-      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenterCommer"> Commercial </button>
+      <button type="button" class="btn-comp" data-toggle="modal" data-target="#exampleModalCenterCommer"> Commercial </button>
       <!-- Modal -->
       <div class="modal fade" id="exampleModalCenterCommer" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
@@ -89,22 +96,22 @@
           </div>
         </div>
       </div>
+      <br>
 
-      <h3>Software Skills</h3>
-      <div class="d-flex">
+      <h3>SOFTWARE</h3>
+      <div class="software">
       <%= image_tag "bootstrap.png", :size => "50x50", alt: "alttext" %>
       <%= image_tag "git_et_github.png", :size => "90x50", alt: "alttext" %>
       <%= image_tag "heroku.png", :size => "50x50", alt: "alttext" %>
+      </div>
+      <div class="software">
       <%= image_tag "html_css_js.png", :size => "90x50", alt: "alttext" %>
       <%= image_tag "postgresql2.png", :size => "50x50", alt: "alttext" %>
       <%= image_tag "ror2.jpg", :size => "50x50", alt: "alttext" %>
       </div>
-      <p>
-      Anglais : Courant
-      Espagnol : Bonnes notions
-
-      - Logiciels maîtrisés: Pack Office, Siebel, SharePoint
-      </p>
+      <br>
+      <p>Anglais : Courant </p>
+      <p>Espagnol : Bonnes notions</p>
 
     </div>
 
@@ -118,7 +125,7 @@
       <br>
 
 
-      <button type="button" id="cpm">2016     Assistante Chef de projet - <em>Cliquer</em></button>
+      <button type="button" id="cpm" class="btnExp">2016     Assistante Chef de projet - <em>Cliquer</em></button>
 
       <span id="assChef"  class="hidden">
         <p >Agence Marketing opérationnel - CPM France / Issy-les-Moulineaux (92)</p>
@@ -135,7 +142,7 @@
 
       <br>
 
-      <button type="button" id="toronto">2014-2015   Missions linguistiques à Toronto au Canada - <em>Cliquer</em></button>
+      <button type="button" id="toronto" class="btnExp">2014-2015   Missions linguistiques à Toronto (Canada) - <em>Cliquer</em></button>
 
       <span id="torontoToDisplay"  class="hidden">
         <ul>
@@ -145,7 +152,7 @@
 
       <br>
 
-      <button type="button" id="meeschaert">2011-2014   Assistante Communication - <em>Cliquer</em></button>
+      <button type="button" id="meeschaert" class="btnExp">2011-2014   Assistante Communication - <em>Cliquer</em></button>
       <span id="meeschaertToDisplay" class="hidden">
         <p>Société de gestion privée - MEESCHAERT / Paris (75)</p>
         <ul>
@@ -160,7 +167,7 @@
       </span>
       <br>
 
-      <button type="button" id="havas">2010-2011   Assistante Chargée d’études - <em>Cliquer</em></button>
+      <button type="button" id="havas" class="btnExp">2010-2011   Assistante Chargée d’études - <em>Cliquer</em></button>
 
       <span id="havasToDisplay" class="hidden">
         <p>Communication Financière - HAVAS / Suresnes (92)</p>
@@ -175,7 +182,7 @@
 
       <br>
 
-      <button type="button" id="acep">2009-2010   Chargée de Relations Clients - <em>Cliquer</em></button>
+      <button type="button" id="acep" class="btnExp">2009-2010   Chargée de Relations Clients - <em>Cliquer</em></button>
 
       <span id="acepToDisplay" class="hidden">
           <p>Association de commerçants - ACEP Pontault-Combault (77)</p>
@@ -200,6 +207,6 @@
 <br>
 <br>
 
-<script src="https://forms.app/static/feedback.js" type="text/javascript">  FormsAppFeedbackButton({ formId: "5ffd6530c61eb24bc3910591", buttonText: "Contactez-moi", buttonTextColor: "#FFFFFF", buttonBackground: "#000000", verticalAlligment: "bottom", horizontalAlligment: "center", width: 400,height: 300}); </script>
+<script src="https://forms.app/static/feedback.js" type="text/javascript">  FormsAppFeedbackButton({ formId: "5ffd6530c61eb24bc3910591", buttonText: "Contactez-moi", buttonTextColor: "#FFFFFF", buttonBackground: "#000000", verticalAlligment: "bottom", width: 400,height: 300}); </script>
 
 

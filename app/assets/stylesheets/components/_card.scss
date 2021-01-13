@@ -1,11 +1,12 @@
 .card {
 
-  background-color: #ffe3d8;
-
+  background-color: #e8ffff;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 22px;
-  box-shadow: 10px 10px white;
+  box-shadow: 8px 8px #e1efef;
+  padding: 16px 16px;
 }
+
 
 #col-left {
   float: left;
@@ -25,3 +26,11 @@ h2 {
    width: 1px;
 }
 
+.software {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.row {
+  width: 104%;
+}
