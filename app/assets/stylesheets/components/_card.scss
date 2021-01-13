@@ -1,10 +1,9 @@
 .card {
-
-  background-color: #e8ffff;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 22px;
-  box-shadow: 8px 8px #e1efef;
+  box-shadow: 6px 6px 10px #41aea9;
   padding: 16px 16px;
+  align-items: center;
 }
 
 
@@ -31,6 +30,3 @@ h2 {
   justify-content: space-evenly;
 }
 
-.row {
-  width: 104%;
-}
